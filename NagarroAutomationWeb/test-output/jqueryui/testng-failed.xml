@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [jqueryui]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="jqueryui Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.jqueryui.testCases.TC_TestUI_001">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.jqueryui.testCases.TC_TestUI_001 -->
+    </classes>
+  </test> <!-- jqueryui Test(failed) -->
+</suite> <!-- Failed suite [jqueryui] -->
